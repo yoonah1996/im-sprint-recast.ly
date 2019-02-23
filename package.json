@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack --mode production",
-    "test": "node __test__/getReview.js && jest",
+    "test": "node __test__/getReview.js && jest src/components/__test__/index.test.js",
     "test:circleci": "node __test__/getReview.js && jest --runInBand --json --outputFile=.circleci/results.json"
   },
   "keywords": [],
