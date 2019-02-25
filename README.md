@@ -24,7 +24,7 @@
 
 ## Advanced 한 과제들
 - Virtual DOM
-- ES6 module (import & export)
+- ES6 module (`import` & `export`)
 - how configure webpack for react (optional)
 
 ## Sprint Office Hour 시간에 발표해볼 과제들
@@ -35,7 +35,7 @@
 ### Day2
 - `.bind` method on react
 - Virtual DOM
-- ES6 module (import & export)
+- ES6 module (`import` & `export`)
 - how configure webpack for react (optional)
 
 ## Sprint 진행 방법
