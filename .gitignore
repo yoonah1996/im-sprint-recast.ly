@@ -140,3 +140,6 @@ __test__/review.json
 
 # prettier
 .prettierrc
+
+
+config/youtube.js

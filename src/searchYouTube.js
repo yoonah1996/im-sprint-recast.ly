@@ -1,3 +1,3 @@
-export const searchYouTube = (options, callback) => {
+export const searchYouTube = ({ query, max, key }, callback) => {
   // TODO
 };

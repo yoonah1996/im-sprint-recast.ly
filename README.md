@@ -2,6 +2,7 @@
 
 ## 이번 Sprint의 학습 목표
 
+
 ## Sprint를 시작하기 전 알고있어야 하는 것들
 
 
@@ -29,4 +30,4 @@
 1. student.json 파일에 필요한 정보를 입력합니다.
 2. REVIEW.md 파일에 이번 Sprint를 마무리하며 review를 작성합니다.
 3. 자신의 remote repo로 push 합니다.
-4. Upstream repo에서 pull request를 만듭니다.
+4. Upstream repo에서 pull request를 만듭니다.# lecture-contents
