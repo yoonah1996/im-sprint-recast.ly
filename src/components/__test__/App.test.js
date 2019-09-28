@@ -1,7 +1,6 @@
 import React from 'react';
 import App from '../App';
 import VideoList from '../VideoList';
-import VideoListEntry from '../VideoListEntry';
 import { mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import { fakeData } from './fakeData';
