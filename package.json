@@ -6,10 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack --mode production",
-    "test": "jest __test__/student.test.js && jest src/components/__test__/index.test.js",
-    "submit-test": "jest --json --outputFile=result.json",
-    "check": "node .airci/submit.js",
-    "submit": "npm-run-all -c -s --silent submit-test check"
+    "test": "jest src/components/__test__/index.test.js"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +21,6 @@
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "colors": "^1.4.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "eslint": "^5.12.0",
