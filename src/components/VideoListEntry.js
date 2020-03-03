@@ -11,7 +11,7 @@ for(let val of fakeData) {
   posts.push(JSON.parse(JSON.stringify(post)))
 }
 
- const VideoListEntry  = menus.map((me, idx) => (
+ const VideoListEntry  = () => (
   <div className="video-list-entry">
     <div className="media-left media-middle">
       {/* <img className="media-object" src="https://i.ytimg.com/vi/dQw4w9WgXcQ/default.jpg" alt="" /> */}
