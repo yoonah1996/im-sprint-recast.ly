@@ -14,5 +14,7 @@ const App = () => (
     </div>
   </div>
 );
-// ReactDOM.render(<App/>, document.getElementById("#app"));
+
+// ReactDOM.render(<App />, document.getElementById("app"))
+
 export default App;
