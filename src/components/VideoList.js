@@ -6,18 +6,11 @@ import { fakeData } from './__test__/fakeData';
 console.log(fakeData)
 
 const VideoList = () => (
-  <div className="video-list media">
-    
+  // <div className="video-list media">
+  <div>
 
     <VideoListEntry />
-    <VideoListEntry />
-    <VideoListEntry />
-    <VideoListEntry />
-    <VideoListEntry />
-    <VideoListEntry />
-    <VideoListEntry />
-    <VideoListEntry />
-    <VideoListEntry />
+
   </div>
 );
 
