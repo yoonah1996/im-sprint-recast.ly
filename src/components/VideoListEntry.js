@@ -1,14 +1,13 @@
 import React from 'react';
 import { fakeData } from './__test__/fakeData';
 // console.log(fakeData)
+
 const newTitle = [];
 for(let val of fakeData){
   newTitle.push(val.snippet.title);
 }
-  // return el.snippet.title
-  
-
 console.log(newTitle);
+
 const VideoListEntry = () => (
   <div className="video-list-entry">
     <div className="media-left media-middle">
