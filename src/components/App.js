@@ -13,14 +13,12 @@ class App extends React.Component {
 			item: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
 			title: "Video Title",
 			description: "Video Description",
-      handleClick: this.handleClick
-    };
-	}
-
-	handleCilck (obj) {
-		this.setState({
-			item: obj.snippet.thumbnails.default.url 
-		});
+			handleClick: function(obj) {
+				this.setState({
+					item: obj.snippet.thumbnails.default.url
+				});
+			}.bind(this)
+		};
 	}
 
 	render() {
@@ -37,7 +35,7 @@ class App extends React.Component {
 				<div className="col-md-5">
 					<VideoList
 						fakeData={this.state.fakeData}
-						handleClick={this.handleClick}
+						handleClick={this.state.handleClick}
 					/>
 				</div>
 			</div>
