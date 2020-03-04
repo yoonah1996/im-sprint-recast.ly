@@ -4,11 +4,11 @@ const VideoPlayer = (props) => (
   <div className="video-player">
     <div className="embed-responsive embed-responsive-16by9">
       <iframe className="embed-responsive-item"
-        src={props.data.item} allowFullScreen></iframe>
+        src={props.item} allowFullScreen></iframe>
     </div>
     <div className="video-player-details">
-      <h3>{props.data.title}</h3>
-      <div>{props.data.description}</div>
+      <h3>{props.title}</h3>
+      <div>{props.description}</div>
     </div>
   </div>
 );
