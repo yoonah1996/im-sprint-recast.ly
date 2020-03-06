@@ -2,9 +2,9 @@
 export const searchYouTube = ({ query, max, key }, callback) => {
   const youTub = {
     q : query,
-    part : snippet,
+    part : "snippet",
     key : key,
-    type : video,
+    type : "video",
     maxResults : max
   }
   //한글검색 인코딩
@@ -17,7 +17,8 @@ export const searchYouTube = ({ query, max, key }, callback) => {
 
   url = url.substr(0, url.length-1);
 
+  //  res.item은 비디오 배열
   fetch(url)
   .then(res => res.json())
-  .then(res => callback(res.items))
+  .then(data => callback(data.items))
 };

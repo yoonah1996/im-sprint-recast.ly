@@ -9,6 +9,6 @@ console.log(App);
 console.log(YOUTUBE_API_KEY);
 
 ReactDOM.render(  // 최상위 폴더만 렌더
-  <App/>,
+  <App YOUTUBE_API_KEY = {YOUTUBE_API_KEY}/>,
   document.getElementById('app')
 );
