@@ -18,6 +18,6 @@ export const searchYouTube = ({ query, max, key }, callback) => {
 
 	//  res.item은 비디오 배열
 	fetch(url)
-		.then(res => res.json())
+	.then(res => res.json())
     .then(data => callback(data.items));
 };
