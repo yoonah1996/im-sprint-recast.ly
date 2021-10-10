@@ -33,7 +33,7 @@ class App extends React.Component {
 	}
 	//비디오 리스트 클릭시 showPlay에 데이터를 바꿔 렌더
 	showVideo(obj) {
-		this.setState(() => ({ showPlay : obj }));
+		this.setState({ showPlay : obj });
 	}
 	// 검색 클릭시 받아온 검색어를 검색하고 
 	searchVideo(inputStr) {
